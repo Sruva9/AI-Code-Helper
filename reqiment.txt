@@ -1,0 +1,20 @@
+# AI Code Helper - Project Dependencies
+
+## Backend (Node.js + Express + Gemini AI)
+express
+cors
+dotenv
+@google/generative-ai
+
+## Frontend (React + CodeMirror + Tailwind CSS)
+react
+react-dom
+axios
+react-icons
+@uiw/react-codemirror
+@codemirror/lang-javascript
+@codemirror/lang-python
+@codemirror/lang-java
+@codemirror/lang-cpp
+@codemirror/theme-one-dark
+tailwindcss

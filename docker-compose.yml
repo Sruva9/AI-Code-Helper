@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./backend
+    container_name: ai-helper-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    networks:
+      - ai-helper-net
+
+  frontend:
+    build: ./frontend
+    container_name: ai-helper-frontend
+    ports:
+      - "3000:80"   # frontend on localhost:3000
+    depends_on:
+      - backend
+    networks:
+      - ai-helper-net
+
+networks:
+  ai-helper-net:
+    driver: bridge
