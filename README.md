@@ -3,6 +3,7 @@
 > An AI-powered web app that helps developers understand, improve, and debug their code in real-time.
 
 ---
+<img width="958" height="473" alt="image" src="https://github.com/user-attachments/assets/9ad68659-999a-4007-9c95-2777f5d51cc0" />
 
 ## 🚀 Features
 
@@ -39,10 +40,6 @@
 ## 🛠️ Setup Instructions
 
 ```bash
-# Clone repository
-git clone https://github.com/<your-username>/ai-code-helper.git
-cd ai-code-helper
-
 # Install frontend dependencies
 cd frontend
 npm install
